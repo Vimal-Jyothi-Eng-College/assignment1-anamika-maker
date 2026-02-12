@@ -1,6 +1,12 @@
-arr = list(map(int, input("Enter array elements: ").split()))
+n = int(input("Enter number of elements: "))
+arr = []
+print("Enter the elements:")
+for i in range(n):
+    value = int(input())
+    arr.append(value)
+
 print("Odd numbers in the array are:")
+
 for num in arr:
     if num % 2 != 0:
         print(num, end=" ")
-
