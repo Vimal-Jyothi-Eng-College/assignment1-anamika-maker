@@ -1,7 +1,5 @@
-n = int(input("Enter the value of N: "))
-
+n = int(input("Enter N: "))
 print("Prime numbers from 1 to", n, "are:")
-
 for num in range(2, n + 1):
     isPrime = True
     for i in range(2, num):
